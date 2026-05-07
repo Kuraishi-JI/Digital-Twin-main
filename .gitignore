@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Streamlit and local runtime
+.streamlit/secrets.toml
+*.log
+logs/
+outputs/
+reports/
+artifacts/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Data that should not be committed by default
+data/raw/
+data/private/
+*.parquet
+*.feather
+
+# Historical prototype directories after consolidation
+Project-integration/
+TradingAgents-main/
